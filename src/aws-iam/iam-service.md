@@ -54,10 +54,10 @@ There are 3 types:
 #### Evaluation Logic 2: Related to Organization with an SCPs (Service control Policy)
 
 1. It checks if this AWS account part of an organization with an SCP
-  1. If answer is No, then Go to Next Step.
-  1. If answer is Yes, then check if the SCP allows the action.
-    1. If there is no explicit "allow", final Decision is implicit "Deny"
-    1. If there is an explicit "allow", go to Next Step.
+1. If answer is No, then Go to Next Step.
+1. If answer is Yes, then check if the SCP allows the action.
+  1. If there is no explicit "allow", final Decision is implicit "Deny"
+  1. If there is an explicit "allow", go to Next Step.
 
 ### Evaluation Logic 3: Related to Resource Policies
 1. If there is no resource policy, go to Next Step.
