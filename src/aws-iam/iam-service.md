@@ -63,7 +63,7 @@ There are 3 types:
 1. If there is no resource policy, go to Next Step.
 1. If there is a resource policy, check if it allows the action.
   1. If there is an explicit "allow", final Decision is "Allow"
-  1. If there's no explicit "deny" but also no explicit "allow", then move to Next Step.
+  1. If there's no explicit "allow", then move to Next Step.
 
 ### Evaluation Logic 4: Related to IAM Permission Boundaries
 1. If there is no permission boundary for Principal identity attached, go to Next Step.
