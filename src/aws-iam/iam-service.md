@@ -16,3 +16,11 @@
   - Access Keys
   - CodeCommit Credentials
   - KeySpaces Credentials
+
+## IAM Groups (No nesting)
+
+- A collection of IAM users.
+- Used to manage permissions for multiple users.
+- Permissions assigned to a group are inherited by all users in that group.
+- Users can be members of multiple groups.
+- Groups cannot be nested.
