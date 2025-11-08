@@ -5,6 +5,7 @@
 ## Shared Responsibility Model
 
 Its a security model that defines the security responsibilities of AWS and the customer..
+
 - AWS is responsible for the security of the cloud
   - HW, SW, Networking, Facilities, Regions, AZs, Edge Locations, Storage
 - Customer is responsible for security in the cloud
